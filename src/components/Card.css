@@ -1,0 +1,43 @@
+.Card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.Card .profile-container {
+  display: flex;
+}
+
+.Card .image-container {
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card img {
+  width: 90px;
+  height: 90px;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 50%;
+}
+
+.Card .content-container {
+  padding-left: 20px;
+}
+
+.Card .name {
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.Card button {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
